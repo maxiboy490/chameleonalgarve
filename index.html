@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Casa Chameleon Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Casa Chameleon</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <img src="hero-image.jpg" alt="Casa Chameleon Resort">
+            <div class="hero-text">
+                <h2>Luxury Awaits You in the Heart of Portugal</h2>
+                <p>Experience breathtaking views, incredible comfort, and unforgettable memories.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room">
+            <img src="room1.jpg" alt="Room 1">
+            <h3>Luxury Room</h3>
+            <p>Enjoy stunning views, modern amenities, and a relaxing atmosphere.</p>
+            <p><strong>Price:</strong> €495 per night</p>
+            <a href="#">Book Now</a>
+        </div>
+        <div class="room">
+            <img src="room2.jpg" alt="Room 2">
+            <h3>Deluxe Suite</h3>
+            <p>Indulge in the ultimate luxury experience with more space and premium facilities.</p>
+            <p><strong>Price:</strong> €650 per night</p>
+            <a href="#">Book Now</a>
+        </div>
+        <!-- Add other room sections as needed -->
+    </section>
+
+    <section id="location">
+        <h2>Location</h2>
+        <p>Casa Chameleon is located in the beautiful Algarve region of Portugal, offering a stunning backdrop for your stay.</p>
+        <div id="map">
+            <!-- Embed Google Map here -->
+            <iframe src="https://www.google.com/maps/embed?pb=..."></iframe>
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2>Book Your Stay</h2>
+        <p>Ready to escape to paradise? Reserve your room today.</p>
+        <form action="#" method="POST">
+            <label for="checkin">Check-In Date:</label>
+            <input type="date" id="checkin" name="checkin">
+            <label for="checkout">Check-Out Date:</label>
+            <input type="date" id="checkout" name="checkout">
+            <label for="rooms">Number of Rooms:</label>
+            <select id="rooms" name="rooms">
+                <option value="1">1 Room</option>
+                <option value="2">2 Rooms</option>
+                <option value="3">3 Rooms</option>
+            </select>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Casa Chameleon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
